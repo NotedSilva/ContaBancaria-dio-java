@@ -12,6 +12,6 @@ public class FormatadorCep {
         if (cep.length() != 8)
             throw new CepInvalidoExcpetion();
 
-            return "11.111-111";
+        return "11.111-111";
     }
 }
